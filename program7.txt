@@ -1,0 +1,13 @@
+using System;
+namespace program
+{
+    class program
+    {
+        static void Main()
+        {
+            Console.WriteLine("enter your string text");
+            string text = Console.ReadLine();
+
+        }
+    }
+}

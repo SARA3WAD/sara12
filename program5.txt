@@ -1,0 +1,18 @@
+using System;
+namespace program
+{
+    class program
+    {
+        static void Main()
+        {
+            Console.WriteLine("enter your first number");
+            int num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter your second number");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter your third number");
+            int num3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("the values store into the array:" + num +" "+ num2 +" "+ num3);
+            Console.WriteLine("the values store into the array in reserve are:" + num3 +" " +num2+" " + num);
+        }
+    }
+}

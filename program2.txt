@@ -1,0 +1,21 @@
+using System;
+namespace program
+{
+    class program
+    {
+        static void Main()
+        {
+            Console.WriteLine("please enter your number");
+            int num = Convert.ToInt32(Console.ReadLine());
+            if (num % 2 == 0)
+            {
+                Console.WriteLine("your num is even");
+            }
+            
+            else
+            {
+                Console.WriteLine("your number is odd");
+            }
+        }
+    }
+}

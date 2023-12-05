@@ -1,0 +1,25 @@
+using System;
+namespace program
+{
+    class program
+    {
+        static void Main()
+        {
+            Console.WriteLine("enter the user name");
+            string name = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("enter your password");
+            string pass = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("enter the user name");
+            Console.ReadLine();
+            Console.WriteLine("enter your password");
+            Console.ReadLine();
+            Console.WriteLine("enter the user name");
+            Console.ReadLine();
+            Console.WriteLine("enter your password");
+            Console.ReadLine();
+            Console.WriteLine("Login attempt more than three times.Try later!");
+
+
+        }
+    }
+}

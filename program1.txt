@@ -1,0 +1,19 @@
+namespace PROGRAM
+{
+    class program
+    {
+       
+        static void Main()
+        {
+            Console.WriteLine("please enter your first char");
+             string val = Console.ReadLine();
+            Console.WriteLine("please enter your second char");
+            string ser = Console.ReadLine();
+            Console.WriteLine("please enter your third char");
+            string let = Console.ReadLine();
+            Console.WriteLine(let +" "+  ser+ " " + val );
+             
+
+        }
+    }
+}
